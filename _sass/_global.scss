@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333333;
+    background-color: rgba(255, 255, 255, 0.781);
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.box-orange{
+    width: 100%;
+    height: 540px;
+    background-color: #E3B153;
+    color: #ffffff;
+}
+
+.box-white{
+    width: 100%;
+    height: 540px;
+}
+
+/*ヘッダー*/
+.header {
+    margin-left: 0;
+    height: 62px;
+    width: 100%;
+    background-color: #4EAF6C;
+    color: #ffffff;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 2px 2px 20px 2px #04919125;
+}
+
+.header-left {
+    height: 56px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 3px;
+    float: left;
+}
+
+header img{
+    border-radius: 100%;
+    padding: 0px 5px 0px 0px;
+  }
+
+.header-logo {
+    padding:0px 0px 0px 5px;
+}
+
